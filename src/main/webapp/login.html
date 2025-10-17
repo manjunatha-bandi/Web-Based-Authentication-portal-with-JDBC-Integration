@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LOGIN |WEB</title>
+<style type="text/css">
+	body {
+	 font-family: serif;
+	 background:skyblue;
+	 display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 500px;
+     margin: 0;
+	}
+	 h3 {
+     	margin-bottom: 20px;
+      	 color: rgb(24, 119, 242);
+    }
+    form {
+	  padding: 20px 50px; 
+	  border-radius: 10px;
+	  text-align: center;
+	  width: 300px; 
+}
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+	  border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #1877F2;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      color: #2c3e50;
+      text-decoration: none;
+      font-size: 14px;
+}
+
+    a:hover {
+      text-decoration: underline;
+    }
+    </style>
+
+</head>
+<body>
+	<form action="login" method="post">
+	<h3>WELCOME TO WEB LOGIN </h3>
+		<input type="email" placeholder="ENTER Email" name="tlEmail" required><br>
+		<input type="password" placeholder="ENTER PASSWORD" name="tlPsd" required><br>
+		<input type="submit" value="LOGIN"><br>
+		<a href="register.html">New user? Register here</a><br>
+	</form>		
+</body>
+</html>
